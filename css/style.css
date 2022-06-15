@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{margin: 0; padding: 0;}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+#topo{
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right top;
+    /* border: 1px solid red; */
+    padding-top: 25px;
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    color: #e50040;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+#topo ul li{
+    float: left;
+}
+#topo ul a{
+    font-size: 0.9em;
+    font-weight: 500;
+    font-variant: small-caps;
+    display: block;
+    padding: 0.5em 1em;
+    line-height: 1.8em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a{
+    background: none;
+}
+#topo ul a:hover{
+    color: #69001d;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+#conteudo{
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    /* background: yellow; */
+}
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    /* background: blue; */
+}
+#duas-colunas #primario{
+    width: 555px;
+}
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0px;
+}
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    /* background: green; */
+}
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+/* Menus laterais */
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    color: #a1a1a1;
+    padding-left: 20px;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+    margin-top: 5px;
+    /* border: none; */
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-top: 5px;
+    /* padding: 5px; */
+}
+/* Formatando Imagens */
+img.imagem-principal{
+    width: 99.2%;
+    border: 3px solid #dfdfdf;
+}
+/* Formatando Cabeçalhos */
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #de003d;
+}
+/* Formatando lista de Notícias */
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a{
+    text-decoration: none;
+}
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+.p-noticia{
+    text-align: justify; 
+    text-indent: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.titulo-noticia{
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    /* border-radius: 10px; */
+}
+.tree{
+    display: block;
+    background-color: #dfdfdf;
+    padding: 8px;
+    color: #b10333;
+}
+.tree a{
+    text-decoration: none;
+}
+/* RODAPÉ */
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
